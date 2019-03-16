@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		1B12343E496BF2EA64C66480 /* Pods_BSMVVMTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF15E525AAD539ADC15B5719 /* Pods_BSMVVMTests.framework */; };
 		2ACE85ABBB77602793A10220 /* Pods_BSMVVM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB807DF306EC4F0DF92A7692 /* Pods_BSMVVM.framework */; };
+		981D36E9223D8FA600DBAC7F /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981D36E8223D8FA600DBAC7F /* R.generated.swift */; };
 		983DCD0D223D8A4100E0B295 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983DCD0C223D8A4100E0B295 /* AppDelegate.swift */; };
 		983DCD14223D8A4100E0B295 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 983DCD12223D8A4100E0B295 /* Main.storyboard */; };
 		983DCD16223D8A4200E0B295 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 983DCD15223D8A4200E0B295 /* Assets.xcassets */; };
@@ -38,6 +39,7 @@
 		1CEF8DAB7FA66FB13CEE0497 /* Pods-BSMVVM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BSMVVM.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BSMVVM/Pods-BSMVVM.debug.xcconfig"; sourceTree = "<group>"; };
 		275CFF2FDE827202B0FA2F77 /* Pods-BSMVVMTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BSMVVMTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BSMVVMTests/Pods-BSMVVMTests.debug.xcconfig"; sourceTree = "<group>"; };
 		7DEDEE576DDC281C4841E080 /* Pods-BSMVVM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BSMVVM.release.xcconfig"; path = "Pods/Target Support Files/Pods-BSMVVM/Pods-BSMVVM.release.xcconfig"; sourceTree = "<group>"; };
+		981D36E8223D8FA600DBAC7F /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
 		983DCD09223D8A4100E0B295 /* BSMVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BSMVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		983DCD0C223D8A4100E0B295 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		983DCD13223D8A4100E0B295 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -102,6 +104,17 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		981D36E7223D8E0100DBAC7F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				981D36E8223D8FA600DBAC7F /* R.generated.swift */,
+				983DCD17223D8A4200E0B295 /* LaunchScreen.storyboard */,
+				983DCD15223D8A4200E0B295 /* Assets.xcassets */,
+				983DCD1A223D8A4300E0B295 /* Info.plist */,
+			);
+			path = "Support Files";
+			sourceTree = "<group>";
+		};
 		983DCD00223D8A4100E0B295 = {
 			isa = PBXGroup;
 			children = (
@@ -129,9 +142,7 @@
 			children = (
 				983DCD0C223D8A4100E0B295 /* AppDelegate.swift */,
 				983DCD12223D8A4100E0B295 /* Main.storyboard */,
-				983DCD15223D8A4200E0B295 /* Assets.xcassets */,
-				983DCD17223D8A4200E0B295 /* LaunchScreen.storyboard */,
-				983DCD1A223D8A4300E0B295 /* Info.plist */,
+				981D36E7223D8E0100DBAC7F /* Support Files */,
 			);
 			path = BSMVVM;
 			sourceTree = "<group>";
@@ -167,6 +178,7 @@
 				983DCD07223D8A4100E0B295 /* Resources */,
 				BA8E2C0029187862DB56E954 /* [CP] Embed Pods Frameworks */,
 				981D36E5223D8D1600DBAC7F /* Swift Lint */,
+				981D36E6223D8DCE00DBAC7F /* R.Swift */,
 			);
 			buildRules = (
 			);
@@ -376,6 +388,26 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\"\n";
 		};
+		981D36E6223D8DCE00DBAC7F /* R.Swift */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$TEMP_DIR/rswift-lastrun",
+			);
+			name = R.Swift;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$SRCROOT/BSMVVM/Support Files/R.generated.swift",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT/BSMVVM/Support Files/R.generated.swift\"\n";
+		};
 		BA8E2C0029187862DB56E954 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -428,6 +460,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				983DCD0D223D8A4100E0B295 /* AppDelegate.swift in Sources */,
+				981D36E9223D8FA600DBAC7F /* R.generated.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -605,7 +638,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5Z85UG7B69;
-				INFOPLIST_FILE = BSMVVM/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/BSMVVM/Support Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -624,7 +657,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5Z85UG7B69;
-				INFOPLIST_FILE = BSMVVM/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/BSMVVM/Support Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
