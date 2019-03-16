@@ -24,6 +24,11 @@
 		981D370D223DA91100DBAC7F /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981D370C223DA91100DBAC7F /* BaseViewModel.swift */; };
 		981D370F223DA9E100DBAC7F /* ArticlesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981D370E223DA9E100DBAC7F /* ArticlesViewModel.swift */; };
 		981D3711223DAB5D00DBAC7F /* Response.json in Resources */ = {isa = PBXBuildFile; fileRef = 981D3710223DAB5D00DBAC7F /* Response.json */; };
+		981D3714223DABEB00DBAC7F /* ArticlesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981D3713223DABEB00DBAC7F /* ArticlesViewController.swift */; };
+		981D3716223DAC3500DBAC7F /* ViewModelsAssemblies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981D3715223DAC3500DBAC7F /* ViewModelsAssemblies.swift */; };
+		981D3718223DAC7600DBAC7F /* ViewControllersAssemblies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981D3717223DAC7600DBAC7F /* ViewControllersAssemblies.swift */; };
+		981D371A223DACB000DBAC7F /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981D3719223DACB000DBAC7F /* BaseViewController.swift */; };
+		981D371C223DAD2900DBAC7F /* SwinjectStoryboardAssemblies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981D371B223DAD2900DBAC7F /* SwinjectStoryboardAssemblies.swift */; };
 		983DCD0D223D8A4100E0B295 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983DCD0C223D8A4100E0B295 /* AppDelegate.swift */; };
 		983DCD14223D8A4100E0B295 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 983DCD12223D8A4100E0B295 /* Main.storyboard */; };
 		983DCD16223D8A4200E0B295 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 983DCD15223D8A4200E0B295 /* Assets.xcassets */; };
@@ -68,6 +73,11 @@
 		981D370C223DA91100DBAC7F /* BaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
 		981D370E223DA9E100DBAC7F /* ArticlesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlesViewModel.swift; sourceTree = "<group>"; };
 		981D3710223DAB5D00DBAC7F /* Response.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Response.json; sourceTree = "<group>"; };
+		981D3713223DABEB00DBAC7F /* ArticlesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlesViewController.swift; sourceTree = "<group>"; };
+		981D3715223DAC3500DBAC7F /* ViewModelsAssemblies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelsAssemblies.swift; sourceTree = "<group>"; };
+		981D3717223DAC7600DBAC7F /* ViewControllersAssemblies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllersAssemblies.swift; sourceTree = "<group>"; };
+		981D3719223DACB000DBAC7F /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		981D371B223DAD2900DBAC7F /* SwinjectStoryboardAssemblies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwinjectStoryboardAssemblies.swift; sourceTree = "<group>"; };
 		983DCD09223D8A4100E0B295 /* BSMVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BSMVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		983DCD0C223D8A4100E0B295 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		983DCD13223D8A4100E0B295 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -147,6 +157,7 @@
 		981D36EA223D919100DBAC7F /* App */ = {
 			isa = PBXGroup;
 			children = (
+				981D3712223DABD600DBAC7F /* ViewControllers */,
 				981D370B223DA8FF00DBAC7F /* ViewModels */,
 				981D3702223DA68200DBAC7F /* Extensions */,
 				981D36F8223D9E5000DBAC7F /* Swinject */,
@@ -187,6 +198,9 @@
 			isa = PBXGroup;
 			children = (
 				981D36F9223D9E6400DBAC7F /* MainAssembler.swift */,
+				981D3715223DAC3500DBAC7F /* ViewModelsAssemblies.swift */,
+				981D371B223DAD2900DBAC7F /* SwinjectStoryboardAssemblies.swift */,
+				981D3717223DAC7600DBAC7F /* ViewControllersAssemblies.swift */,
 				981D36FB223D9E8300DBAC7F /* ApiAssemblies.swift */,
 				981D3700223D9F1800DBAC7F /* RepositoriesAssemblies.swift */,
 			);
@@ -217,6 +231,15 @@
 				981D370E223DA9E100DBAC7F /* ArticlesViewModel.swift */,
 			);
 			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		981D3712223DABD600DBAC7F /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				981D3713223DABEB00DBAC7F /* ArticlesViewController.swift */,
+				981D3719223DACB000DBAC7F /* BaseViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 		983DCD00223D8A4100E0B295 = {
@@ -572,13 +595,18 @@
 				981D36F7223D9DAD00DBAC7F /* ArticlesRepository.swift in Sources */,
 				981D3708223DA8CF00DBAC7F /* Observable+MoyaErrorhandler.swift in Sources */,
 				983DCD0D223D8A4100E0B295 /* AppDelegate.swift in Sources */,
+				981D371A223DACB000DBAC7F /* BaseViewController.swift in Sources */,
 				981D36FA223D9E6400DBAC7F /* MainAssembler.swift in Sources */,
 				981D3701223D9F1800DBAC7F /* RepositoriesAssemblies.swift in Sources */,
 				981D370D223DA91100DBAC7F /* BaseViewModel.swift in Sources */,
 				981D370A223DA8E500DBAC7F /* Single+MoyaErrorHandler.swift in Sources */,
+				981D3714223DABEB00DBAC7F /* ArticlesViewController.swift in Sources */,
+				981D371C223DAD2900DBAC7F /* SwinjectStoryboardAssemblies.swift in Sources */,
 				981D36E9223D8FA600DBAC7F /* R.generated.swift in Sources */,
 				981D36EF223D954F00DBAC7F /* ArticlesResonse.swift in Sources */,
+				981D3716223DAC3500DBAC7F /* ViewModelsAssemblies.swift in Sources */,
 				981D36F5223D9B7500DBAC7F /* ArticlesAPI.swift in Sources */,
+				981D3718223DAC7600DBAC7F /* ViewControllersAssemblies.swift in Sources */,
 				981D36ED223D91AE00DBAC7F /* Article.swift in Sources */,
 				981D370F223DA9E100DBAC7F /* ArticlesViewModel.swift in Sources */,
 			);

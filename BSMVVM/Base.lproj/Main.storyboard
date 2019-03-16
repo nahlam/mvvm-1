@@ -6,27 +6,25 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Root View Controller-->
-        <scene sceneID="WAr-M7-GFI">
+        <!--Articles View Controller-->
+        <scene sceneID="ZgB-pn-rGG">
             <objects>
-                <tableViewController id="OzG-q9-2To" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="G9Y-lz-p6y">
+                <viewController id="B99-qu-d1E" customClass="ArticlesViewController" customModule="BSMVVM" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8cC-E1-IJp">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <connections>
-                            <outlet property="dataSource" destination="OzG-q9-2To" id="PkW-IF-SXy"/>
-                            <outlet property="delegate" destination="OzG-q9-2To" id="uXb-U5-zYz"/>
-                        </connections>
-                    </tableView>
-                    <navigationItem key="navigationItem" title="Root View Controller" id="uuG-6S-rAK"/>
-                </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="hvp-Yi-rwt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                        <viewLayoutGuide key="safeArea" id="OzC-gD-zDq"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="ZMv-8e-087"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="31E-cP-2Oy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="308" y="-77"/>
+            <point key="canvasLocation" x="214" y="-78"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="dx0-56-2wL">
@@ -37,7 +35,7 @@
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
-                        <segue destination="OzG-q9-2To" kind="relationship" relationship="rootViewController" id="d5s-GB-kno"/>
+                        <segue destination="B99-qu-d1E" kind="relationship" relationship="rootViewController" id="qjQ-W5-Wjv"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UPo-Qg-jOY" userLabel="First Responder" sceneMemberID="firstResponder"/>

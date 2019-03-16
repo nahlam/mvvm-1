@@ -24,10 +24,19 @@ class MainAssembler {
     init() {
         Container.loggingFunction = nil  // disable false positive logs
 
+        // applying view controllers assemblies
+        assembler.apply(assembly: ViewControllersAssemblies())
+        
+        // applying view models assemblies
+        assembler.apply(assembly: ViewModelsAssemblies())
+        
         // applying Api assemblies
         assembler.apply(assembly: ApiAssemblies())
         
         // applying repositores assemblies
         assembler.apply(assembly: RepositoriesAssemblies())
+        
+        // applying SwinjectStoryboard assemblies
+        assembler.apply(assembly: SwinjectStoryboardAssemblies())
     }
 }
