@@ -16,13 +16,12 @@ struct ArticlesRepository {
     
     let api: MoyaProvider<ArticlesAPI>
     
-    func getArticles(period: Period) -> Single<ArticlesResonse> {
+    func getArticles(period: Period = .lastDay) -> Single<ArticlesResonse> {
         return api.rx.request(.getArticles(period: period))
             .map(ArticlesResonse.self, atKeyPath: nil, using: JSONDecoder(), failsOnEmptyData: false)
     }
     
     func getArticlesFromJSONFile(_ fileName: String = "Response") -> Single<ArticlesResonse> {
-        
         return Single.create { single in
             do {
                 let result = try ArticlesResonse.fromJSON(fileName) as ArticlesResonse
