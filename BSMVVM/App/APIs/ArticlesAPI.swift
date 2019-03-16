@@ -9,12 +9,14 @@
 import Foundation
 import Moya
 
+// Add period as enumration for non magic keys
 enum Period: Int {
     case lastDay = 1
     case lastWeek = 7
     case lastMonth = 30
 }
 
+// Moya Articles API
 enum ArticlesAPI {
     case getArticles(period: Period)
 }

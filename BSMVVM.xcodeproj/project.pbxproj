@@ -136,6 +136,7 @@
 		981D36EA223D919100DBAC7F /* App */ = {
 			isa = PBXGroup;
 			children = (
+				981D3702223DA68200DBAC7F /* Extensions */,
 				981D36F8223D9E5000DBAC7F /* Swinject */,
 				981D36F3223D9B5B00DBAC7F /* APIs */,
 				981D36F2223D9B3A00DBAC7F /* Repositories */,
@@ -184,6 +185,13 @@
 			isa = PBXGroup;
 			children = (
 				981D36FE223D9EDA00DBAC7F /* Moya+JSON.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		981D3702223DA68200DBAC7F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
 			);
 			path = Extensions;
 			sourceTree = "<group>";

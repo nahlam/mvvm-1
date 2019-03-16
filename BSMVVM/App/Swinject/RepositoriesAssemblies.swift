@@ -10,6 +10,7 @@ import Foundation
 import Swinject
 import Moya
 
+// Swinject assembly for Repositories
 class RepositoriesAssemblies: Assembly {
     
     func assemble(container: Container) {
