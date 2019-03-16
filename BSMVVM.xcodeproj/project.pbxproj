@@ -13,6 +13,12 @@
 		981D36ED223D91AE00DBAC7F /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981D36EC223D91AE00DBAC7F /* Article.swift */; };
 		981D36EF223D954F00DBAC7F /* ArticlesResonse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981D36EE223D954F00DBAC7F /* ArticlesResonse.swift */; };
 		981D36F1223D95E900DBAC7F /* Response.json in Resources */ = {isa = PBXBuildFile; fileRef = 981D36F0223D95E900DBAC7F /* Response.json */; };
+		981D36F5223D9B7500DBAC7F /* ArticlesAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981D36F4223D9B7500DBAC7F /* ArticlesAPI.swift */; };
+		981D36F7223D9DAD00DBAC7F /* ArticlesRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981D36F6223D9DAD00DBAC7F /* ArticlesRepository.swift */; };
+		981D36FA223D9E6400DBAC7F /* MainAssembler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981D36F9223D9E6400DBAC7F /* MainAssembler.swift */; };
+		981D36FC223D9E8300DBAC7F /* ApiAssemblies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981D36FB223D9E8300DBAC7F /* ApiAssemblies.swift */; };
+		981D36FF223D9EDA00DBAC7F /* Moya+JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981D36FE223D9EDA00DBAC7F /* Moya+JSON.swift */; };
+		981D3701223D9F1800DBAC7F /* RepositoriesAssemblies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981D3700223D9F1800DBAC7F /* RepositoriesAssemblies.swift */; };
 		983DCD0D223D8A4100E0B295 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983DCD0C223D8A4100E0B295 /* AppDelegate.swift */; };
 		983DCD14223D8A4100E0B295 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 983DCD12223D8A4100E0B295 /* Main.storyboard */; };
 		983DCD16223D8A4200E0B295 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 983DCD15223D8A4200E0B295 /* Assets.xcassets */; };
@@ -46,6 +52,12 @@
 		981D36EC223D91AE00DBAC7F /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
 		981D36EE223D954F00DBAC7F /* ArticlesResonse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlesResonse.swift; sourceTree = "<group>"; };
 		981D36F0223D95E900DBAC7F /* Response.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Response.json; sourceTree = "<group>"; };
+		981D36F4223D9B7500DBAC7F /* ArticlesAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlesAPI.swift; sourceTree = "<group>"; };
+		981D36F6223D9DAD00DBAC7F /* ArticlesRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlesRepository.swift; sourceTree = "<group>"; };
+		981D36F9223D9E6400DBAC7F /* MainAssembler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainAssembler.swift; sourceTree = "<group>"; };
+		981D36FB223D9E8300DBAC7F /* ApiAssemblies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiAssemblies.swift; sourceTree = "<group>"; };
+		981D36FE223D9EDA00DBAC7F /* Moya+JSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Moya+JSON.swift"; sourceTree = "<group>"; };
+		981D3700223D9F1800DBAC7F /* RepositoriesAssemblies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoriesAssemblies.swift; sourceTree = "<group>"; };
 		983DCD09223D8A4100E0B295 /* BSMVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BSMVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		983DCD0C223D8A4100E0B295 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		983DCD13223D8A4100E0B295 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -124,6 +136,9 @@
 		981D36EA223D919100DBAC7F /* App */ = {
 			isa = PBXGroup;
 			children = (
+				981D36F8223D9E5000DBAC7F /* Swinject */,
+				981D36F3223D9B5B00DBAC7F /* APIs */,
+				981D36F2223D9B3A00DBAC7F /* Repositories */,
 				981D36EB223D919100DBAC7F /* Models */,
 			);
 			path = App;
@@ -136,6 +151,41 @@
 				981D36EE223D954F00DBAC7F /* ArticlesResonse.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		981D36F2223D9B3A00DBAC7F /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				981D36F6223D9DAD00DBAC7F /* ArticlesRepository.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		981D36F3223D9B5B00DBAC7F /* APIs */ = {
+			isa = PBXGroup;
+			children = (
+				981D36FD223D9ECE00DBAC7F /* Extensions */,
+				981D36F4223D9B7500DBAC7F /* ArticlesAPI.swift */,
+			);
+			path = APIs;
+			sourceTree = "<group>";
+		};
+		981D36F8223D9E5000DBAC7F /* Swinject */ = {
+			isa = PBXGroup;
+			children = (
+				981D36F9223D9E6400DBAC7F /* MainAssembler.swift */,
+				981D36FB223D9E8300DBAC7F /* ApiAssemblies.swift */,
+				981D3700223D9F1800DBAC7F /* RepositoriesAssemblies.swift */,
+			);
+			path = Swinject;
+			sourceTree = "<group>";
+		};
+		981D36FD223D9ECE00DBAC7F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				981D36FE223D9EDA00DBAC7F /* Moya+JSON.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		983DCD00223D8A4100E0B295 = {
@@ -485,9 +535,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				981D36FF223D9EDA00DBAC7F /* Moya+JSON.swift in Sources */,
+				981D36FC223D9E8300DBAC7F /* ApiAssemblies.swift in Sources */,
+				981D36F7223D9DAD00DBAC7F /* ArticlesRepository.swift in Sources */,
 				983DCD0D223D8A4100E0B295 /* AppDelegate.swift in Sources */,
+				981D36FA223D9E6400DBAC7F /* MainAssembler.swift in Sources */,
+				981D3701223D9F1800DBAC7F /* RepositoriesAssemblies.swift in Sources */,
 				981D36E9223D8FA600DBAC7F /* R.generated.swift in Sources */,
 				981D36EF223D954F00DBAC7F /* ArticlesResonse.swift in Sources */,
+				981D36F5223D9B7500DBAC7F /* ArticlesAPI.swift in Sources */,
 				981D36ED223D91AE00DBAC7F /* Article.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
