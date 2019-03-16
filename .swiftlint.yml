@@ -1,0 +1,33 @@
+disabled_rules: # rule identifiers to exclude from running
+  - nesting
+  - force_cast
+  - trailing_whitespace
+  - type_body_length
+
+included: # paths to include during linting. `--path` is ignored if present.
+  - 'BSMVVM'
+  - 'BSMVVMTests'
+  - 'BSMVVMUITests'
+excluded: # paths to ignore during linting. Takes precedence over `included`.
+  - Pods
+  - BSMVVM/Support Files/R.generated.swift
+
+file_length: 1000
+line_length: 200
+vertical_whitespace:
+  error: 4 # only error
+trailing_whitespace:
+  warning: 2 # only warning
+identifier_name:
+  min_length: # only min_length
+    error: 2 # only error
+  excluded: # excluded via string array
+    - id
+    - Id
+    - URL
+    - GlobalAPIKey
+
+# configurable rules can be customized from this configuration file
+# binary rules can set their severity level
+force_cast: warning # implicitly. Give warning only for force casting
+force_try: warning
