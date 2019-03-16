@@ -1,0 +1,1201 @@
+{
+    "status": "OK",
+    "copyright": "Copyright (c) 2019 The New York Times Company.  All Rights Reserved.",
+    "num_results": 1899,
+    "results": [
+        {
+            "url": "https://www.nytimes.com/interactive/2019/02/15/upshot/british-irish-dialect-quiz.html",
+            "adx_keywords": "English Language;Geography;Ireland;Great Britain",
+            "column": "",
+            "section": "The Upshot",
+            "byline": "By JOSH KATZ",
+            "type": "Interactive",
+            "title": "The British-Irish Dialect Quiz",
+            "abstract": "What does the way you speak say about where you’re from? Answer 25 questions to see your own custom dialect map.",
+            "published_date": "2019-02-15",
+            "source": "The New York Times",
+            "id": 100000006354694,
+            "asset_id": 100000006354694,
+            "views": 1,
+            "des_facet": [
+                "GEOGRAPHY"
+            ],
+            "org_facet": [
+                "ENGLISH LANGUAGE"
+            ],
+            "per_facet": "",
+            "geo_facet": [
+                "IRELAND",
+                "GREAT BRITAIN"
+            ],
+            "media": [
+                {
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": null,
+                    "copyright": null,
+                    "approved_for_syndication": 0,
+                    "media-metadata": [
+                        {
+                            "url": "https://static01.nyt.com/images/2019/02/14/us/british-irish-dialect-quiz-promo-1550183830563/british-irish-dialect-quiz-promo-1550183830563-thumbStandard-v3.jpg",
+                            "format": "Standard Thumbnail",
+                            "height": 75,
+                            "width": 75
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2019/02/14/us/british-irish-dialect-quiz-promo-1550183830563/british-irish-dialect-quiz-promo-1550183830563-mediumThreeByTwo210-v3.jpg",
+                            "format": "mediumThreeByTwo210",
+                            "height": 140,
+                            "width": 210
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2019/02/14/us/british-irish-dialect-quiz-promo-1550183830563/british-irish-dialect-quiz-promo-1550183830563-mediumThreeByTwo440-v3.jpg",
+                            "format": "mediumThreeByTwo440",
+                            "height": 293,
+                            "width": 440
+                        }
+                    ]
+                }
+            ],
+            "uri": "nyt://interactive/1e5a3f06-7f77-5ee3-9832-cab645c4fc9d"
+        },
+        {
+            "url": "https://www.nytimes.com/2019/03/04/health/aids-cure-london-patient.html",
+            "adx_keywords": "Acquired Immune Deficiency Syndrome;Immunotherapy;Genetic Engineering;Transplants;Bone Marrow;Stem Cells;Brown, Timothy Ray;American Foundation for AIDS Research;Nature (Journal);University College London;your-feed-science",
+            "column": null,
+            "section": "Health",
+            "byline": "By APOORVA MANDAVILLI",
+            "type": "Article",
+            "title": "H.I.V. Is Reported Cured in a Second Patient, a Milestone in the Global AIDS Epidemic",
+            "abstract": "Scientists have long tried to duplicate the procedure that led to the first long-term remission 12 years ago. With the so-called London patient, they seem to have succeeded.",
+            "published_date": "2019-03-04",
+            "source": "The New York Times",
+            "id": 100000006369659,
+            "asset_id": 100000006369659,
+            "views": 2,
+            "des_facet": [
+                "ACQUIRED IMMUNE DEFICIENCY SYNDROME",
+                "IMMUNOTHERAPY",
+                "TRANSPLANTS",
+                "BONE MARROW",
+                "YOUR-FEED-SCIENCE"
+            ],
+            "org_facet": [
+                "GENETIC ENGINEERING",
+                "STEM CELLS",
+                "AMERICAN FOUNDATION FOR AIDS RESEARCH",
+                "NATURE (JOURNAL)",
+                "UNIVERSITY COLLEGE LONDON"
+            ],
+            "per_facet": [
+                "BROWN, TIMOTHY RAY"
+            ],
+            "geo_facet": "",
+            "media": [
+                {
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "A colored transmission electron micrograph of the H.I.V. virus, in green, attaching to a white blood cell, in orange.",
+                    "copyright": "NIBSC/Science Source",
+                    "approved_for_syndication": 1,
+                    "media-metadata": [
+                        {
+                            "url": "https://static01.nyt.com/images/2019/03/06/science/05HIV1/05HIV1-thumbStandard.jpg",
+                            "format": "Standard Thumbnail",
+                            "height": 75,
+                            "width": 75
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2019/03/06/science/05HIV1/05HIV1-mediumThreeByTwo210-v2.jpg",
+                            "format": "mediumThreeByTwo210",
+                            "height": 140,
+                            "width": 210
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2019/03/06/science/05HIV1/05HIV1-mediumThreeByTwo440-v2.jpg",
+                            "format": "mediumThreeByTwo440",
+                            "height": 293,
+                            "width": 440
+                        }
+                    ]
+                }
+            ],
+            "uri": "nyt://article/22d66a15-c0f2-5d38-9b0e-335e84467e43"
+        },
+        {
+            "url": "https://www.nytimes.com/2019/02/13/arts/music/ryan-adams-women-sex.html",
+            "adx_keywords": "Pop and Rock Music;Adams, Ryan;Moore, Mandy;#MeToo Movement;Women and Girls;Cyberharassment;Sexual Harassment",
+            "column": "",
+            "section": "Arts",
+            "byline": "By JOE COSCARELLI and MELENA RYZIK",
+            "type": "Article",
+            "title": "Ryan Adams Dangled Success. Women Say They Paid a Price.",
+            "abstract": "Several women say Adams offered to jumpstart their music careers, then pursued them sexually and in some cases retaliated when they spurned him. He denies the claims.",
+            "published_date": "2019-02-13",
+            "source": "The New York Times",
+            "id": 100000006330084,
+            "asset_id": 100000006330084,
+            "views": 3,
+            "des_facet": [
+                "CYBERHARASSMENT"
+            ],
+            "org_facet": [
+                "POP AND ROCK MUSIC",
+                "#METOO MOVEMENT",
+                "WOMEN AND GIRLS",
+                "SEXUAL HARASSMENT"
+            ],
+            "per_facet": [
+                "ADAMS, RYAN",
+                "MOORE, MANDY"
+            ],
+            "geo_facet": "",
+            "media": [
+                {
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Ryan Adams in 2017. A prolific singer-songwriter with his own label and studio, he is also known to communicate directly with fans and critics on social media.",
+                    "copyright": "Elizabeth Weinberg for The New York Times",
+                    "approved_for_syndication": 1,
+                    "media-metadata": [
+                        {
+                            "url": "https://static01.nyt.com/images/2019/02/14/arts/14music-investigation/14music-investigation-thumbStandard.jpg",
+                            "format": "Standard Thumbnail",
+                            "height": 75,
+                            "width": 75
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2019/02/14/arts/14music-investigation/14music-investigation-mediumThreeByTwo210-v2.jpg",
+                            "format": "mediumThreeByTwo210",
+                            "height": 140,
+                            "width": 210
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2019/02/14/arts/14music-investigation/14music-investigation-mediumThreeByTwo440-v2.jpg",
+                            "format": "mediumThreeByTwo440",
+                            "height": 293,
+                            "width": 440
+                        }
+                    ]
+                }
+            ],
+            "uri": "nyt://article/0eb5ebcf-bf06-5a6b-bcf3-4f802719c5d4"
+        },
+        {
+            "url": "https://www.nytimes.com/2019/02/23/business/cell-phone-addiction.html",
+            "adx_keywords": "Computers and the Internet;Mobile Applications;Social Media;Mental Health and Disorders;Anxiety and Stress;Smartphones;Addiction (Psychology);Boredom",
+            "column": "The Shift",
+            "section": "Business",
+            "byline": "By KEVIN ROOSE",
+            "type": "Article",
+            "title": "Do Not Disturb: How I Ditched My Phone and Unbroke My Brain",
+            "abstract": "I couldn’t read a book, watch a full-length movie or sustain a long conversation. Late last year, I decided enough was enough.",
+            "published_date": "2019-02-23",
+            "source": "The New York Times",
+            "id": 100000006373393,
+            "asset_id": 100000006373393,
+            "views": 4,
+            "des_facet": [
+                "COMPUTERS AND THE INTERNET",
+                "SOCIAL MEDIA",
+                "SMARTPHONES"
+            ],
+            "org_facet": [
+                "MOBILE APPLICATIONS",
+                "MENTAL HEALTH AND DISORDERS",
+                "ANXIETY AND STRESS",
+                "ADDICTION (PSYCHOLOGY)",
+                "BOREDOM"
+            ],
+            "per_facet": "",
+            "geo_facet": "",
+            "media": [
+                {
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Who needs a smartphone when you’ve got ads for discount dentistry?",
+                    "copyright": "Demetrius Freeman for The New York Times",
+                    "approved_for_syndication": 1,
+                    "media-metadata": [
+                        {
+                            "url": "https://static01.nyt.com/images/2019/02/23/business/23roose/23roose-thumbStandard.jpg",
+                            "format": "Standard Thumbnail",
+                            "height": 75,
+                            "width": 75
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2019/02/23/business/23roose/merlin_150405807_63d0e2fe-74a3-4eeb-b43a-fb3e348958d5-mediumThreeByTwo210.jpg",
+                            "format": "mediumThreeByTwo210",
+                            "height": 140,
+                            "width": 210
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2019/02/23/business/23roose/merlin_150405807_63d0e2fe-74a3-4eeb-b43a-fb3e348958d5-mediumThreeByTwo440.jpg",
+                            "format": "mediumThreeByTwo440",
+                            "height": 293,
+                            "width": 440
+                        }
+                    ]
+                }
+            ],
+            "uri": "nyt://article/7de1ea03-a863-5dab-b121-53bfdb4fa0e5"
+        },
+        {
+            "url": "https://www.nytimes.com/2019/02/14/nyregion/amazon-hq2-queens.html",
+            "adx_keywords": "Amazon.com Inc;Long Island City (Queens, NY);Relocation of Business;Real Estate (Commercial);Real Estate and Housing (Residential);Cuomo, Andrew M;de Blasio, Bill;New York State;Income Inequality;Labor and Jobs;Demonstrations, Protests and Riots",
+            "column": null,
+            "section": "New York",
+            "byline": "By J. DAVID GOODMAN",
+            "type": "Article",
+            "title": "Amazon Pulls Out of Planned New York City Headquarters",
+            "abstract": "Its plan to build a sprawling complex in Queens in return for nearly for $3 billion in government incentives had come under fierce opposition from local lawmakers.",
+            "published_date": "2019-02-14",
+            "source": "The New York Times",
+            "id": 100000006360383,
+            "asset_id": 100000006360383,
+            "views": 5,
+            "des_facet": [
+                "RELOCATION OF BUSINESS",
+                "REAL ESTATE (COMMERCIAL)",
+                "REAL ESTATE AND HOUSING (RESIDENTIAL)",
+                "INCOME INEQUALITY",
+                "LABOR AND JOBS"
+            ],
+            "org_facet": [
+                "AMAZON.COM INC",
+                "DEMONSTRATIONS, PROTESTS AND RIOTS"
+            ],
+            "per_facet": [
+                "CUOMO, ANDREW M",
+                "DE BLASIO, BILL"
+            ],
+            "geo_facet": [
+                "LONG ISLAND CITY (QUEENS, NY)",
+                "NEW YORK STATE"
+            ],
+            "media": [
+                {
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "To lure Amazon, city and state officials had offered the company one of the largest-ever incentive packages in exchange for a much larger return in jobs and tax revenue.",
+                    "copyright": "Hiroko Masuike/The New York Times",
+                    "approved_for_syndication": 1,
+                    "media-metadata": [
+                        {
+                            "url": "https://static01.nyt.com/images/2019/02/14/nyregion/14NYAMAZON2/merlin_146867472_15c39bb2-67e7-40b9-9ae6-ef4693dd2ce9-thumbStandard.jpg",
+                            "format": "Standard Thumbnail",
+                            "height": 75,
+                            "width": 75
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2019/02/14/nyregion/14NYAMAZON2/merlin_146867472_15c39bb2-67e7-40b9-9ae6-ef4693dd2ce9-mediumThreeByTwo210.jpg",
+                            "format": "mediumThreeByTwo210",
+                            "height": 140,
+                            "width": 210
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2019/02/14/nyregion/14NYAMAZON2/merlin_146867472_15c39bb2-67e7-40b9-9ae6-ef4693dd2ce9-mediumThreeByTwo440.jpg",
+                            "format": "mediumThreeByTwo440",
+                            "height": 293,
+                            "width": 440
+                        }
+                    ]
+                }
+            ],
+            "uri": "nyt://article/899004ab-3cc2-5241-8509-ab5ada152e9d"
+        },
+        {
+            "url": "https://www.nytimes.com/2019/03/12/us/felicity-huffman-lori-loughlin-massimo-giannulli.html",
+            "adx_keywords": "College Admissions Scandal (2019);Admissions Standards;Colleges and Universities;Bribery and Kickbacks;Cheating;Frauds and Swindling;Huffman, Felicity;Loughlin, Lori;Giannulli, Mossimo",
+            "column": null,
+            "section": "U.S.",
+            "byline": "By REBECCA HALLECK",
+            "type": "Article",
+            "title": "Who’s Been Charged in the College Admissions Cheating Scandal? Here’s the Full List",
+            "abstract": "The actresses Felicity Huffman and Lori Loughlin and the fashion designer Mossimo Giannulli are among the 50 people charged in a bribery scheme to secure places for students in elite colleges.",
+            "published_date": "2019-03-12",
+            "source": "The New York Times",
+            "id": 100000006406229,
+            "asset_id": 100000006406229,
+            "views": 6,
+            "des_facet": [
+                "ADMISSIONS STANDARDS",
+                "COLLEGES AND UNIVERSITIES",
+                "BRIBERY AND KICKBACKS",
+                "FRAUDS AND SWINDLING"
+            ],
+            "org_facet": [
+                "COLLEGE ADMISSIONS SCANDAL (2019)",
+                "CHEATING"
+            ],
+            "per_facet": [
+                "HUFFMAN, FELICITY",
+                "LOUGHLIN, LORI",
+                "GIANNULLI, MOSSIMO"
+            ],
+            "geo_facet": "",
+            "media": [
+                {
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "From left: Lori Loughlin, Mossimo Giannulli and Felicity Huffman.",
+                    "copyright": "From left: AFP -- Getty Images; Reuters and AP",
+                    "approved_for_syndication": 1,
+                    "media-metadata": [
+                        {
+                            "url": "https://static01.nyt.com/images/2019/03/12/us/12college-whois-hp/12college-whois-alt-thumbStandard.jpg",
+                            "format": "Standard Thumbnail",
+                            "height": 75,
+                            "width": 75
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2019/03/12/us/12college-whois-hp/12college-whois-alt-mediumThreeByTwo210.jpg",
+                            "format": "mediumThreeByTwo210",
+                            "height": 140,
+                            "width": 210
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2019/03/12/us/12college-whois-hp/12college-whois-alt-mediumThreeByTwo440.jpg",
+                            "format": "mediumThreeByTwo440",
+                            "height": 293,
+                            "width": 440
+                        }
+                    ]
+                }
+            ],
+            "uri": "nyt://article/50b479fd-7f67-54d5-91ec-b60178e83d83"
+        },
+        {
+            "url": "https://www.nytimes.com/2019/03/12/us/college-admissions-cheating-scandal.html",
+            "adx_keywords": "College Admissions Scandal (2019);Colleges and Universities;Admissions Standards;Cheating;Bribery and Kickbacks;Frauds and Swindling;Singer, William Rick;Edge College and Career Network;Huffman, Felicity;Loughlin, Lori;McGlashan, William E Jr;Yale University;Wake Forest University;Stanford University;University of Southern California",
+            "column": null,
+            "section": "U.S.",
+            "byline": "By JENNIFER MEDINA, KATIE BENNER and KATE TAYLOR",
+            "type": "Article",
+            "title": "Actresses, Business Leaders and Other Wealthy Parents Charged in U.S. College Entry Fraud",
+            "abstract": "A sprawling federal investigation accuses 50 people of involvement in a scheme to get undeserving students into major American universities.",
+            "published_date": "2019-03-12",
+            "source": "The New York Times",
+            "id": 100000006406075,
+            "asset_id": 100000006406075,
+            "views": 7,
+            "des_facet": [
+                "COLLEGES AND UNIVERSITIES",
+                "ADMISSIONS STANDARDS",
+                "CHEATING"
+            ],
+            "org_facet": [
+                "COLLEGE ADMISSIONS SCANDAL (2019)",
+                "BRIBERY AND KICKBACKS",
+                "FRAUDS AND SWINDLING",
+                "EDGE COLLEGE AND CAREER NETWORK",
+                "YALE UNIVERSITY",
+                "WAKE FOREST UNIVERSITY",
+                "STANFORD UNIVERSITY",
+                "UNIVERSITY OF SOUTHERN CALIFORNIA"
+            ],
+            "per_facet": [
+                "SINGER, WILLIAM RICK",
+                "HUFFMAN, FELICITY",
+                "LOUGHLIN, LORI",
+                "MCGLASHAN, WILLIAM E JR"
+            ],
+            "geo_facet": "",
+            "media": [
+                {
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "",
+                    "copyright": "Steven Senne/Associated Press",
+                    "approved_for_syndication": 1,
+                    "media-metadata": [
+                        {
+                            "url": "https://static01.nyt.com/images/2019/03/12/us/12college-raid-sub/12college-raid-sub-thumbStandard.jpg",
+                            "format": "Standard Thumbnail",
+                            "height": 75,
+                            "width": 75
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2019/03/12/us/12college-raid-sub/12college-raid-sub-mediumThreeByTwo210.jpg",
+                            "format": "mediumThreeByTwo210",
+                            "height": 140,
+                            "width": 210
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2019/03/12/us/12college-raid-sub/12college-raid-sub-mediumThreeByTwo440.jpg",
+                            "format": "mediumThreeByTwo440",
+                            "height": 293,
+                            "width": 440
+                        }
+                    ]
+                }
+            ],
+            "uri": "nyt://article/bac76e87-b5fc-54fa-8c0f-46a0688effba"
+        },
+        {
+            "url": "https://www.nytimes.com/2019/02/19/us/politics/trump-investigations.html",
+            "adx_keywords": "Trump, Donald J;Russian Interference in 2016 US Elections and Ties to Trump Associates;United States Politics and Government;Federal Bureau of Investigation;Justice Department;Barr, William P;Cohen, Michael D (1966- );Comey, James B;Flynn, Michael T;Mueller, Robert S III;Special Prosecutors (Independent Counsel)",
+            "column": null,
+            "section": "U.S.",
+            "byline": "By MARK MAZZETTI, MAGGIE HABERMAN, NICHOLAS FANDOS and MICHAEL S. SCHMIDT",
+            "type": "Article",
+            "title": "Intimidation, Pressure and Humiliation: Inside Trump’s Two-Year War on the Investigations Encircling Him",
+            "abstract": "President Trump’s efforts have exposed him to accusations of obstruction of justice as Robert S. Mueller III, the special counsel, finishes his work.",
+            "published_date": "2019-02-19",
+            "source": "The New York Times",
+            "id": 100000006356375,
+            "asset_id": 100000006356375,
+            "views": 8,
+            "des_facet": [
+                "RUSSIAN INTERFERENCE IN 2016 US ELECTIONS AND TIES TO TRUMP ASSOCIATES",
+                "UNITED STATES POLITICS AND GOVERNMENT"
+            ],
+            "org_facet": [
+                "FEDERAL BUREAU OF INVESTIGATION",
+                "JUSTICE DEPARTMENT",
+                "SPECIAL PROSECUTORS (INDEPENDENT COUNSEL)"
+            ],
+            "per_facet": [
+                "TRUMP, DONALD J",
+                "BARR, WILLIAM P",
+                "COHEN, MICHAEL D (1966- )",
+                "COMEY, JAMES B",
+                "FLYNN, MICHAEL T",
+                "MUELLER, ROBERT S III"
+            ],
+            "geo_facet": "",
+            "media": [
+                {
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "President Trump entering the House chamber to deliver his State of the Union speech this month. Mr. Trump has attacked the law enforcement apparatus of his own government like no other president in history.",
+                    "copyright": "Doug Mills/The New York Times",
+                    "approved_for_syndication": 1,
+                    "media-metadata": [
+                        {
+                            "url": "https://static01.nyt.com/images/2019/02/17/us/politics/17dc-obstruction1/00dc-obstruction1-thumbStandard.jpg",
+                            "format": "Standard Thumbnail",
+                            "height": 75,
+                            "width": 75
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2019/02/17/us/politics/17dc-obstruction1/00dc-obstruction1-mediumThreeByTwo210.jpg",
+                            "format": "mediumThreeByTwo210",
+                            "height": 140,
+                            "width": 210
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2019/02/17/us/politics/17dc-obstruction1/00dc-obstruction1-mediumThreeByTwo440.jpg",
+                            "format": "mediumThreeByTwo440",
+                            "height": 293,
+                            "width": 440
+                        }
+                    ]
+                }
+            ],
+            "uri": "nyt://article/63b780ca-9987-59b1-8bd9-fcc8c6f003fb"
+        },
+        {
+            "url": "https://www.nytimes.com/interactive/2019/02/27/us/politics/michael-cohen-testimony.html",
+            "adx_keywords": "United States Politics and Government;House Committee on Oversight and Government Reform;Cohen, Michael D (1966- );Trump, Donald J;Cummings, Elijah E",
+            "column": "",
+            "section": "U.S.",
+            "byline": "",
+            "type": "Interactive",
+            "title": "Michael D. Cohen’s Congressional Testimony",
+            "abstract": "Michael D. Cohen, the former lawyer and fixer for President Donald J. Trump, took the stand on Wednesday morning to testify publicly against Mr. Trump before the House Oversight Committee.",
+            "published_date": "2019-02-27",
+            "source": "The New York Times",
+            "id": 100000006380398,
+            "asset_id": 100000006380398,
+            "views": 9,
+            "des_facet": [
+                "UNITED STATES POLITICS AND GOVERNMENT"
+            ],
+            "org_facet": [
+                "HOUSE COMMITTEE ON OVERSIGHT AND GOVERNMENT REFORM"
+            ],
+            "per_facet": [
+                "COHEN, MICHAEL D (1966- )",
+                "TRUMP, DONALD J",
+                "CUMMINGS, ELIJAH E"
+            ],
+            "geo_facet": "",
+            "media": [
+                {
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "",
+                    "copyright": "Erin Schaff/The New York Times",
+                    "approved_for_syndication": 1,
+                    "media-metadata": [
+                        {
+                            "url": "https://static01.nyt.com/images/2019/02/27/us/28-cohen-video/28-cohen-video-thumbStandard-v7.jpg",
+                            "format": "Standard Thumbnail",
+                            "height": 75,
+                            "width": 75
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2019/02/27/us/28-cohen-video/28-cohen-video-mediumThreeByTwo210-v7.jpg",
+                            "format": "mediumThreeByTwo210",
+                            "height": 140,
+                            "width": 210
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2019/02/27/us/28-cohen-video/28-cohen-video-mediumThreeByTwo440-v7.jpg",
+                            "format": "mediumThreeByTwo440",
+                            "height": 293,
+                            "width": 440
+                        }
+                    ]
+                }
+            ],
+            "uri": "nyt://interactive/d8c2b449-163d-5d8f-9ebc-f868c299abea"
+        },
+        {
+            "url": "https://www.nytimes.com/2019/02/15/us/politics/national-emergency-trump.html",
+            "adx_keywords": "Trump, Donald J;War and Emergency Powers (US);United States Politics and Government;Border Barriers;Federal Budget (US);Constitution (US);Democratic Party;Republican Party;House of Representatives;Senate;Suits and Litigation (Civil)",
+            "column": null,
+            "section": "U.S.",
+            "byline": "By PETER BAKER",
+            "type": "Article",
+            "title": "Trump Declares a National Emergency, and Provokes a Constitutional Clash",
+            "abstract": "The president’s decision incited instant condemnation from Democrats, who called it an unconstitutional abuse of his authority and vowed to overturn it with Republican support.",
+            "published_date": "2019-02-15",
+            "source": "The New York Times",
+            "id": 100000006362279,
+            "asset_id": 100000006362279,
+            "views": 10,
+            "des_facet": [
+                "WAR AND EMERGENCY POWERS (US)",
+                "UNITED STATES POLITICS AND GOVERNMENT",
+                "BORDER BARRIERS"
+            ],
+            "org_facet": [
+                "FEDERAL BUDGET (US)",
+                "CONSTITUTION (US)",
+                "DEMOCRATIC PARTY",
+                "REPUBLICAN PARTY",
+                "HOUSE OF REPRESENTATIVES",
+                "SENATE",
+                "SUITS AND LITIGATION (CIVIL)"
+            ],
+            "per_facet": [
+                "TRUMP, DONALD J"
+            ],
+            "geo_facet": "",
+            "media": [
+                {
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "After Congress declined to give him more funding for his border wall, President Trump decided to declare a national emergency.",
+                    "copyright": "Doug Mills/The New York Times",
+                    "approved_for_syndication": 1,
+                    "media-metadata": [
+                        {
+                            "url": "https://static01.nyt.com/images/2019/02/16/us/politics/16dc-trump-vid2/16dc-trump-vid2-thumbStandard-v2.jpg",
+                            "format": "Standard Thumbnail",
+                            "height": 75,
+                            "width": 75
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2019/02/16/us/politics/16dc-trump-vid2/16dc-trump-vid2-mediumThreeByTwo210-v2.jpg",
+                            "format": "mediumThreeByTwo210",
+                            "height": 140,
+                            "width": 210
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2019/02/16/us/politics/16dc-trump-vid2/16dc-trump-vid2-mediumThreeByTwo440-v2.jpg",
+                            "format": "mediumThreeByTwo440",
+                            "height": 293,
+                            "width": 440
+                        }
+                    ]
+                }
+            ],
+            "uri": "nyt://article/417c92d8-8063-5578-9bae-9225264c3cbe"
+        },
+        {
+            "url": "https://www.nytimes.com/interactive/2019/02/21/magazine/elite-professionals-jobs-happiness.html",
+            "adx_keywords": "Labor and Jobs;Wages and Salaries;Happiness;Harvard University",
+            "column": "",
+            "section": "Magazine",
+            "byline": "By CHARLES DUHIGG",
+            "type": "Interactive",
+            "title": "America’s Professional Elite: Wealthy, Successful and Miserable",
+            "abstract": "The upper echelon is hoarding money and privilege to a degree not seen in decades. But that doesn’t make them happy at work.",
+            "published_date": "2019-02-21",
+            "source": "The New York Times",
+            "id": 100000006368689,
+            "asset_id": 100000006368689,
+            "views": 11,
+            "des_facet": [
+                "LABOR AND JOBS",
+                "WAGES AND SALARIES"
+            ],
+            "org_facet": [
+                "HAPPINESS",
+                "HARVARD UNIVERSITY"
+            ],
+            "per_facet": "",
+            "geo_facet": "",
+            "media": [
+                {
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "",
+                    "copyright": "Illustration by Tracy Ma",
+                    "approved_for_syndication": 0,
+                    "media-metadata": [
+                        {
+                            "url": "https://static01.nyt.com/images/2019/02/24/magazine/24Mag-Happiness-Image1/24Mag-Happiness-Image1-thumbStandard-v2.jpg",
+                            "format": "Standard Thumbnail",
+                            "height": 75,
+                            "width": 75
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2019/02/24/magazine/24Mag-Happiness-Image1/24Mag-Happiness-Image1-mediumThreeByTwo210-v2.jpg",
+                            "format": "mediumThreeByTwo210",
+                            "height": 140,
+                            "width": 210
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2019/02/24/magazine/24Mag-Happiness-Image1/24Mag-Happiness-Image1-mediumThreeByTwo440-v2.jpg",
+                            "format": "mediumThreeByTwo440",
+                            "height": 293,
+                            "width": 440
+                        }
+                    ]
+                }
+            ],
+            "uri": "nyt://interactive/aeefd869-0ce5-50bf-a93f-8483eb3f59e1"
+        },
+        {
+            "url": "https://www.nytimes.com/2019/02/24/movies/oscar-winners.html",
+            "adx_keywords": "Academy Awards (Oscars);Movies",
+            "column": null,
+            "section": "Movies",
+            "byline": "Compiled by SARA ARIDI",
+            "type": "Article",
+            "title": "2019 Oscar Winners: The Full List",
+            "abstract": "A complete list of the winners of the 91st Academy Awards.",
+            "published_date": "2019-02-24",
+            "source": "The New York Times",
+            "id": 100000006355960,
+            "asset_id": 100000006355960,
+            "views": 12,
+            "des_facet": [
+                "ACADEMY AWARDS (OSCARS)",
+                "MOVIES"
+            ],
+            "org_facet": "",
+            "per_facet": "",
+            "geo_facet": "",
+            "media": [
+                {
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Alfonso Cuarón won best director and best cinematography for “Roma,” which also won best foreign language film.",
+                    "copyright": "Noel West for The New York Times",
+                    "approved_for_syndication": 1,
+                    "media-metadata": [
+                        {
+                            "url": "https://static01.nyt.com/images/2019/02/24/arts/25oscars-bestdirector-cuaron/noel-oscars-2019-4442-thumbStandard.jpg",
+                            "format": "Standard Thumbnail",
+                            "height": 75,
+                            "width": 75
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2019/02/24/arts/25oscars-bestdirector-cuaron/noel-oscars-2019-4442-mediumThreeByTwo210.jpg",
+                            "format": "mediumThreeByTwo210",
+                            "height": 140,
+                            "width": 210
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2019/02/24/arts/25oscars-bestdirector-cuaron/noel-oscars-2019-4442-mediumThreeByTwo440.jpg",
+                            "format": "mediumThreeByTwo440",
+                            "height": 293,
+                            "width": 440
+                        }
+                    ]
+                }
+            ],
+            "uri": "nyt://article/e636e737-972d-5c28-ada6-bfcd36656bc1"
+        },
+        {
+            "url": "https://www.nytimes.com/2019/02/28/us/politics/jared-kushner-security-clearance.html",
+            "adx_keywords": "Trump, Donald J;Kushner, Jared;Trump, Ivanka;Kelly, John F (1950- );United States Politics and Government;Classified Information and State Secrets;Federal Bureau of Investigation;Central Intelligence Agency",
+            "column": null,
+            "section": "U.S.",
+            "byline": "By MAGGIE HABERMAN, MICHAEL S. SCHMIDT, ADAM GOLDMAN and ANNIE KARNI",
+            "type": "Article",
+            "title": "Trump Ordered Officials to Give Jared Kushner a Security Clearance",
+            "abstract": "The president overruled concerns from intelligence officials and the top White House lawyer about giving his son-in-law access to sensitive information.",
+            "published_date": "2019-02-28",
+            "source": "The New York Times",
+            "id": 100000006385739,
+            "asset_id": 100000006385739,
+            "views": 13,
+            "des_facet": [
+                "UNITED STATES POLITICS AND GOVERNMENT",
+                "CLASSIFIED INFORMATION AND STATE SECRETS"
+            ],
+            "org_facet": [
+                "FEDERAL BUREAU OF INVESTIGATION",
+                "CENTRAL INTELLIGENCE AGENCY"
+            ],
+            "per_facet": [
+                "TRUMP, DONALD J",
+                "KUSHNER, JARED",
+                "TRUMP, IVANKA",
+                "KELLY, JOHN F (1950- )"
+            ],
+            "geo_facet": "",
+            "media": [
+                {
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Jared Kushner, President Trump’s son-in-law and senior adviser, received a top-secret security clearance despite concerns from intelligence officials.",
+                    "copyright": "Andrew Harnik/Associated Press",
+                    "approved_for_syndication": 1,
+                    "media-metadata": [
+                        {
+                            "url": "https://static01.nyt.com/images/2019/03/01/us/01dc-clearance-sub-promo/01dc-clearance-sub-promo-thumbStandard.jpg",
+                            "format": "Standard Thumbnail",
+                            "height": 75,
+                            "width": 75
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2019/03/01/us/01dc-clearance-sub-promo/01dc-clearance-sub-promo-mediumThreeByTwo210.jpg",
+                            "format": "mediumThreeByTwo210",
+                            "height": 140,
+                            "width": 210
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2019/03/01/us/01dc-clearance-sub-promo/01dc-clearance-sub-promo-mediumThreeByTwo440.jpg",
+                            "format": "mediumThreeByTwo440",
+                            "height": 293,
+                            "width": 440
+                        }
+                    ]
+                }
+            ],
+            "uri": "nyt://article/c1737106-a9fa-5d1c-9100-603f314a7f20"
+        },
+        {
+            "url": "https://www.nytimes.com/2019/03/14/world/boeing-737-max-ethiopian-airlines.html",
+            "adx_keywords": "Boeing 737 Max Groundings and Safety Concerns (2019);Aviation Accidents, Safety and Disasters;Getachew, Yared;Boeing Company;Federal Aviation Administration;Ethiopian Airlines",
+            "column": null,
+            "section": "World",
+            "byline": "By SELAM GEBREKIDAN and JAMES GLANZ",
+            "type": "Article",
+            "title": "Boeing 737 Max Hit Trouble Right Away, Pilot’s Tense Radio Messages Show",
+            "abstract": "“Break break, request back to home,” the captain of the ill-fated Ethiopian Airlines flight radioed air traffic controllers minutes after taking off.",
+            "published_date": "2019-03-14",
+            "source": "The New York Times",
+            "id": 100000006410242,
+            "asset_id": 100000006410242,
+            "views": 14,
+            "des_facet": [
+                "BOEING 737 MAX GROUNDINGS AND SAFETY CONCERNS (2019)",
+                "AVIATION ACCIDENTS, SAFETY AND DISASTERS"
+            ],
+            "org_facet": [
+                "BOEING COMPANY",
+                "FEDERAL AVIATION ADMINISTRATION",
+                "ETHIOPIAN AIRLINES"
+            ],
+            "per_facet": [
+                "GETACHEW, YARED"
+            ],
+            "geo_facet": "",
+            "media": [
+                {
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "A memorial arch on Thursday at the site of the jet crash in Ethiopia.",
+                    "copyright": "Jemal Countess/Getty Images",
+                    "approved_for_syndication": 1,
+                    "media-metadata": [
+                        {
+                            "url": "https://static01.nyt.com/images/2019/03/14/business/14boeing3/14boeing3-thumbStandard.jpg",
+                            "format": "Standard Thumbnail",
+                            "height": 75,
+                            "width": 75
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2019/03/14/business/14boeing3/14boeing3-mediumThreeByTwo210.jpg",
+                            "format": "mediumThreeByTwo210",
+                            "height": 140,
+                            "width": 210
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2019/03/14/business/14boeing3/14boeing3-mediumThreeByTwo440.jpg",
+                            "format": "mediumThreeByTwo440",
+                            "height": 293,
+                            "width": 440
+                        }
+                    ]
+                }
+            ],
+            "uri": "nyt://article/63411a1f-beed-55ff-99b5-7c382acf1d83"
+        },
+        {
+            "url": "https://www.nytimes.com/2019/02/26/opinion/born-alive-abortion.html",
+            "adx_keywords": "Pregnancy and Childbirth;Babies and Infants;Abortion;Trump, Donald J",
+            "column": null,
+            "section": "Opinion",
+            "byline": "By JEN GUNTER",
+            "type": "Article",
+            "title": "I Didn’t Kill My Baby",
+            "abstract": "When he was born, my husband at the time and I knew he couldn’t survive. That doesn’t make me a murderer.",
+            "published_date": "2019-02-26",
+            "source": "The New York Times",
+            "id": 100000006381286,
+            "asset_id": 100000006381286,
+            "views": 15,
+            "des_facet": [
+                "PREGNANCY AND CHILDBIRTH",
+                "BABIES AND INFANTS",
+                "ABORTION"
+            ],
+            "org_facet": "",
+            "per_facet": [
+                "TRUMP, DONALD J"
+            ],
+            "geo_facet": "",
+            "media": [
+                {
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "",
+                    "copyright": "Javier Larrea/Age Fotostock, via Getty Images",
+                    "approved_for_syndication": 1,
+                    "media-metadata": [
+                        {
+                            "url": "https://static01.nyt.com/images/2019/02/28/opinion/28Gunter-Sub2/26Gunter-Sub2-thumbStandard.jpg",
+                            "format": "Standard Thumbnail",
+                            "height": 75,
+                            "width": 75
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2019/02/28/opinion/28Gunter-Sub2/26Gunter-Sub2-mediumThreeByTwo210.jpg",
+                            "format": "mediumThreeByTwo210",
+                            "height": 140,
+                            "width": 210
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2019/02/28/opinion/28Gunter-Sub2/26Gunter-Sub2-mediumThreeByTwo440.jpg",
+                            "format": "mediumThreeByTwo440",
+                            "height": 293,
+                            "width": 440
+                        }
+                    ]
+                }
+            ],
+            "uri": "nyt://article/09cf3a96-b293-5387-8137-16d46ec39559"
+        },
+        {
+            "url": "https://www.nytimes.com/interactive/2019/03/11/world/boeing-737-max-which-airlines.html",
+            "adx_keywords": "Airlines and Airplanes;Boeing Company;Aviation Accidents, Safety and Disasters;Lion Air;Ethiopian Airlines;Addis Ababa (Ethiopia);Southwest Airlines Company;American Airlines;Air Canada;China Southern Airlines;Norwegian Air Shuttle ASA;Air China;SpiceJet;Turkish Airlines;Flydubai",
+            "column": "",
+            "section": "World",
+            "byline": "By DENISE LU, ALLISON McCANN, JIN WU and K.K. REBECCA LAI",
+            "type": "Interactive",
+            "title": "From 8,600 Flights to Zero: Grounding the Boeing 737 Max 8",
+            "abstract": "China was the first major country to ground the jets. The U.S. was last.",
+            "published_date": "2019-03-11",
+            "source": "The New York Times",
+            "id": 100000006404643,
+            "asset_id": 100000006404643,
+            "views": 16,
+            "des_facet": [
+                "AIRLINES AND AIRPLANES",
+                "AVIATION ACCIDENTS, SAFETY AND DISASTERS"
+            ],
+            "org_facet": [
+                "BOEING COMPANY",
+                "LION AIR",
+                "ETHIOPIAN AIRLINES",
+                "SOUTHWEST AIRLINES COMPANY",
+                "AMERICAN AIRLINES",
+                "AIR CANADA",
+                "CHINA SOUTHERN AIRLINES",
+                "NORWEGIAN AIR SHUTTLE ASA",
+                "AIR CHINA",
+                "SPICEJET",
+                "TURKISH AIRLINES",
+                "FLYDUBAI"
+            ],
+            "per_facet": "",
+            "geo_facet": [
+                "ADDIS ABABA (ETHIOPIA)"
+            ],
+            "media": [
+                {
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "",
+                    "copyright": "",
+                    "approved_for_syndication": 0,
+                    "media-metadata": [
+                        {
+                            "url": "https://static01.nyt.com/images/2019/03/11/world/where-boeing-737-max-flies-1552329118347/where-boeing-737-max-flies-1552329118347-thumbStandard-v15.jpg",
+                            "format": "Standard Thumbnail",
+                            "height": 75,
+                            "width": 75
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2019/03/11/world/where-boeing-737-max-flies-1552329118347/where-boeing-737-max-flies-1552329118347-mediumThreeByTwo210-v15.jpg",
+                            "format": "mediumThreeByTwo210",
+                            "height": 140,
+                            "width": 210
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2019/03/11/world/where-boeing-737-max-flies-1552329118347/where-boeing-737-max-flies-1552329118347-mediumThreeByTwo440-v15.jpg",
+                            "format": "mediumThreeByTwo440",
+                            "height": 293,
+                            "width": 440
+                        }
+                    ]
+                }
+            ],
+            "uri": "nyt://interactive/7fcc105c-d025-5f27-841e-e00292eeb4ab"
+        },
+        {
+            "url": "https://www.nytimes.com/2019/02/22/us/politics/amy-klobuchar-staff.html",
+            "adx_keywords": "Klobuchar, Amy;Presidential Election of 2020;United States Politics and Government;Workplace Environment;Hiring and Promotion;Minnesota;Senate;Democratic Party",
+            "column": null,
+            "section": "U.S.",
+            "byline": "By MATT FLEGENHEIMER and SYDNEY EMBER",
+            "type": "Article",
+            "title": "How Amy Klobuchar Treats Her Staff",
+            "abstract": "Interviews with more than two dozen former staff members and internal emails reviewed by The Times reveal demeaning and unusual behavior by Ms. Klobuchar toward her subordinates.",
+            "published_date": "2019-02-22",
+            "source": "The New York Times",
+            "id": 100000006367607,
+            "asset_id": 100000006367607,
+            "views": 17,
+            "des_facet": [
+                "PRESIDENTIAL ELECTION OF 2020",
+                "UNITED STATES POLITICS AND GOVERNMENT"
+            ],
+            "org_facet": [
+                "WORKPLACE ENVIRONMENT",
+                "HIRING AND PROMOTION",
+                "SENATE",
+                "DEMOCRATIC PARTY"
+            ],
+            "per_facet": [
+                "KLOBUCHAR, AMY"
+            ],
+            "geo_facet": [
+                "MINNESOTA"
+            ],
+            "media": [
+                {
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Senator Amy Klobuchar talked with aides at the Capitol in December. For years, she has had among the highest rates of staff turnover in the Senate.",
+                    "copyright": "Erin Schaff for The New York Times",
+                    "approved_for_syndication": 1,
+                    "media-metadata": [
+                        {
+                            "url": "https://static01.nyt.com/images/2019/02/23/us/politics/23klobuchar-print/00klobuchar1-thumbStandard-v3.jpg",
+                            "format": "Standard Thumbnail",
+                            "height": 75,
+                            "width": 75
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2019/02/23/us/politics/23klobuchar-print/00klobuchar1-mediumThreeByTwo210-v3.jpg",
+                            "format": "mediumThreeByTwo210",
+                            "height": 140,
+                            "width": 210
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2019/02/23/us/politics/23klobuchar-print/00klobuchar1-mediumThreeByTwo440-v3.jpg",
+                            "format": "mediumThreeByTwo440",
+                            "height": 293,
+                            "width": 440
+                        }
+                    ]
+                }
+            ],
+            "uri": "nyt://article/a58425be-3679-54e1-b36f-36ddd317e822"
+        },
+        {
+            "url": "https://www.nytimes.com/2019/02/14/us/politics/trump-national-emergency-border.html",
+            "adx_keywords": "Trump, Donald J;War and Emergency Powers (US);Shutdowns (Institutional);United States Politics and Government;Border Barriers;Law and Legislation;Constitution (US);Illegal Immigration;Federal Budget (US);Democratic Party;Republican Party;House of Representatives;Senate",
+            "column": null,
+            "section": "U.S.",
+            "byline": "By PETER BAKER, EMILY COCHRANE and MAGGIE HABERMAN",
+            "type": "Article",
+            "title": "As Congress Passes Spending Bill, Trump Plans National Emergency to Build Border Wall",
+            "abstract": "President Trump would proceed with plans to construct barriers on the southwestern border without legislative approval but keep the government open.",
+            "published_date": "2019-02-14",
+            "source": "The New York Times",
+            "id": 100000006296314,
+            "asset_id": 100000006296314,
+            "views": 18,
+            "des_facet": [
+                "WAR AND EMERGENCY POWERS (US)",
+                "SHUTDOWNS (INSTITUTIONAL)",
+                "UNITED STATES POLITICS AND GOVERNMENT",
+                "LAW AND LEGISLATION",
+                "FEDERAL BUDGET (US)"
+            ],
+            "org_facet": [
+                "BORDER BARRIERS",
+                "CONSTITUTION (US)",
+                "ILLEGAL IMMIGRATION",
+                "DEMOCRATIC PARTY",
+                "REPUBLICAN PARTY",
+                "HOUSE OF REPRESENTATIVES",
+                "SENATE"
+            ],
+            "per_facet": [
+                "TRUMP, DONALD J"
+            ],
+            "geo_facet": "",
+            "media": [
+                {
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Asylum seekers lined up in January outside the El Chaparral entry point into the United States in Tijuana, Mexico.",
+                    "copyright": "Mark Abramson for The New York Times",
+                    "approved_for_syndication": 1,
+                    "media-metadata": [
+                        {
+                            "url": "https://static01.nyt.com/images/2019/01/11/us/politics/11dc-emergency/11dc-emergency-thumbStandard.jpg",
+                            "format": "Standard Thumbnail",
+                            "height": 75,
+                            "width": 75
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2019/01/11/us/politics/11dc-emergency/merlin_148744563_301310c5-cc8e-43ef-9aa3-0aa5c1921e95-mediumThreeByTwo210.jpg",
+                            "format": "mediumThreeByTwo210",
+                            "height": 140,
+                            "width": 210
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2019/01/11/us/politics/11dc-emergency/merlin_148744563_301310c5-cc8e-43ef-9aa3-0aa5c1921e95-mediumThreeByTwo440.jpg",
+                            "format": "mediumThreeByTwo440",
+                            "height": 293,
+                            "width": 440
+                        }
+                    ]
+                }
+            ],
+            "uri": "nyt://article/938c6829-773d-5e8b-bf9b-4e873b3b3e34"
+        },
+        {
+            "url": "https://www.nytimes.com/interactive/2014/upshot/dialect-quiz-map.html",
+            "adx_keywords": "Language and Languages;English Language",
+            "column": "",
+            "section": "The Upshot",
+            "byline": "By JOSH KATZ and WILSON ANDREWS",
+            "type": "Interactive",
+            "title": "How Y’all, Youse and You Guys Talk",
+            "abstract": "What does the way you speak say about where you’re from? Answer all the questions below to see your personal dialect map.",
+            "published_date": "2013-12-21",
+            "source": "The New York Times",
+            "id": 100000002615736,
+            "asset_id": 100000002615736,
+            "views": 19,
+            "des_facet": [
+                "LANGUAGE AND LANGUAGES",
+                "ENGLISH LANGUAGE"
+            ],
+            "org_facet": "",
+            "per_facet": "",
+            "geo_facet": "",
+            "media": [
+                {
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": null,
+                    "copyright": null,
+                    "approved_for_syndication": 0,
+                    "media-metadata": [
+                        {
+                            "url": "https://static01.nyt.com/images/2016/11/24/us/map-dialect/map-dialect-thumbStandard.png",
+                            "format": "Standard Thumbnail",
+                            "height": 75,
+                            "width": 75
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2016/11/24/us/map-dialect/map-dialect-mediumThreeByTwo210.png",
+                            "format": "mediumThreeByTwo210",
+                            "height": 140,
+                            "width": 210
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2016/11/24/us/map-dialect/map-dialect-mediumThreeByTwo440.png",
+                            "format": "mediumThreeByTwo440",
+                            "height": 293,
+                            "width": 440
+                        }
+                    ]
+                }
+            ],
+            "uri": "nyt://interactive/cba553d7-2ebc-597f-bd74-de3f617296e0"
+        },
+        {
+            "url": "https://www.nytimes.com/2019/02/18/world/europe/priests-children-vatican-rules-celibacy.html",
+            "adx_keywords": "Priests;Celibacy;Child Abuse and Neglect;Roman Catholic Church;Francis",
+            "column": null,
+            "section": "World",
+            "byline": "By JASON HOROWITZ and ELISABETTA POVOLEDO",
+            "type": "Article",
+            "title": "Vatican’s Secret Rules for Catholic Priests Who Have Children",
+            "abstract": "The Vatican confirmed, apparently for the first time, that it has general guidelines for what to do when clerics break celibacy vows and father children.",
+            "published_date": "2019-02-18",
+            "source": "The New York Times",
+            "id": 100000006360915,
+            "asset_id": 100000006360915,
+            "views": 20,
+            "des_facet": [
+                "PRIESTS",
+                "CELIBACY",
+                "CHILD ABUSE AND NEGLECT"
+            ],
+            "org_facet": [
+                "ROMAN CATHOLIC CHURCH"
+            ],
+            "per_facet": [
+                "FRANCIS"
+            ],
+            "geo_facet": "",
+            "media": [
+                {
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "“It’s the next scandal,” said Vincent Doyle, the son of a priest. “There are kids everywhere.”",
+                    "copyright": "Suzanne Kreiter/Boston Globe, via Getty Images",
+                    "approved_for_syndication": 1,
+                    "media-metadata": [
+                        {
+                            "url": "https://static01.nyt.com/images/2019/02/19/world/19priest-children1-print/xxpriest-children1-thumbStandard.jpg",
+                            "format": "Standard Thumbnail",
+                            "height": 75,
+                            "width": 75
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2019/02/19/world/19priest-children1-print/19priest-children1-print-mediumThreeByTwo210-v2.jpg",
+                            "format": "mediumThreeByTwo210",
+                            "height": 140,
+                            "width": 210
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2019/02/19/world/19priest-children1-print/19priest-children1-print-mediumThreeByTwo440-v2.jpg",
+                            "format": "mediumThreeByTwo440",
+                            "height": 293,
+                            "width": 440
+                        }
+                    ]
+                }
+            ],
+            "uri": "nyt://article/e5033e89-d637-52fe-bdae-fba90259cf90"
+        }
+    ]
+}

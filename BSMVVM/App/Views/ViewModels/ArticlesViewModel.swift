@@ -23,8 +23,9 @@ final class ArticlesViewModel: BaseViewModel {
         super.init()
     }
     
-    func getArticles() {
-        repository.getArticlesFromJSONFile()
+    func getArticles(period: Period = .lastDay) {
+        let fileName = "Response-\(period.rawValue)"
+        repository.getArticlesFromJSONFile(fileName)
             .subscribWithErrorHandling(onSuccess: { [weak self] response in
                 guard let self = self else {
                     return
