@@ -18,5 +18,9 @@ struct ViewModelsAssemblies: Assembly {
         container.register(ArticlesViewModel.self) { resolver in
             return ArticlesViewModel(repository: resolver.resolve(ArticlesRepository.self)!)
         }
+        
+        container.register(ArticleViewModel.self) { _, article in
+            return ArticleViewModel.init(article: article)
+        }
     }
 }
