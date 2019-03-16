@@ -12,11 +12,18 @@ import RxCocoa
 
 final class ArticleViewModel: BaseViewModel {
 
-    private let article: Article
+    let article: Article
     
     init(article: Article) {
         self.article = article
         super.init()
     }
     
+    func getThumbnailURLString() -> String? {
+        guard let metaDataArray = article.media?[0].mediaMetadata else { return nil }
+        for mediaMetaData in metaDataArray where mediaMetaData.format == .standardThumbnail {
+            return mediaMetaData.url
+        }
+        return nil
+    }
 }

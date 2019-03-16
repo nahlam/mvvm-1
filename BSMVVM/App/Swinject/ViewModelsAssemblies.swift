@@ -20,7 +20,7 @@ struct ViewModelsAssemblies: Assembly {
         }
         
         container.register(ArticleViewModel.self) { _, article in
-            return ArticleViewModel.init(article: article)
+            return ArticleViewModel(article: article)
         }
     }
 }

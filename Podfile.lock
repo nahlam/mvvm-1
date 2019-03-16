@@ -1,5 +1,6 @@
 PODS:
   - Alamofire (4.8.1)
+  - Kingfisher (5.2.0)
   - Moya/Core (12.0.1):
     - Alamofire (~> 4.1)
     - Result (~> 4.0)
@@ -61,6 +62,7 @@ PODS:
     - Swinject (~> 2.5)
 
 DEPENDENCIES:
+  - Kingfisher (~> 5.2)
   - Moya/RxSwift (~> 12.0)
   - MRProgress (~> 0.8)
   - R.swift (~> 5.0)
@@ -77,6 +79,7 @@ DEPENDENCIES:
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - Alamofire
+    - Kingfisher
     - Moya
     - MRProgress
     - R.swift
@@ -95,6 +98,7 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   Alamofire: 16ce2c353fb72865124ddae8a57c5942388f4f11
+  Kingfisher: 07067cfacf371117330dceb4b4b8f5c4b691ab42
   Moya: cf730b3cd9e005401ef37a85143aa141a12fd38f
   MRProgress: 16de7cc9f347e8846797a770db102a323fe7ef09
   R.swift: 81455d81467763cbd3f4d79d938d05f4ac4c0228
@@ -111,6 +115,6 @@ SPEC CHECKSUMS:
   Swinject: 48a96cda93633cf2860697b4ce76ab5db9ebaca2
   SwinjectStoryboard: 688f096033103e66ffcf6ca678211acd7d7be505
 
-PODFILE CHECKSUM: 5971cbde8ae3506c4743ede40018affd440441f0
+PODFILE CHECKSUM: 9e152806c73d2bb4da0c58251e79bf9b6b8af6bd
 
 COCOAPODS: 1.5.3

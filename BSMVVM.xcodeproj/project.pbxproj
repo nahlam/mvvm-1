@@ -173,16 +173,8 @@
 			isa = PBXGroup;
 			children = (
 				98037209223DBC740008F06B /* ArticleCell.swift */,
-				9803720A223DBC740008F06B /* Extensions */,
 			);
 			path = Cells;
-			sourceTree = "<group>";
-		};
-		9803720A223DBC740008F06B /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Extensions;
 			sourceTree = "<group>";
 		};
 		9803720B223DBC740008F06B /* Facasdes */ = {

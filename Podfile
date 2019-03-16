@@ -19,6 +19,7 @@ def all_pods
     pod 'SwinjectStoryboard', '~> 2.1'
     
     pod 'R.swift', '~> 5.0'
+    pod 'Kingfisher', '~> 5.2'
 
 end
 

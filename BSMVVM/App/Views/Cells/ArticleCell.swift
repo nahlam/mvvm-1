@@ -15,9 +15,10 @@ class ArticleCell: UITableViewCell {
     @IBOutlet weak private var authorLabel: UILabel!
     @IBOutlet weak private var dateLabel: UILabel!
     
-    func configureCell(with article: Article) {
-        titleLabel.text = article.title
-        authorLabel.text = article.byline
-        dateLabel.text = article.publishedDate
+    func configureCell(with viewModel: ArticleViewModel) {
+        titleLabel.text = viewModel.article.title
+        authorLabel.text = viewModel.article.byline
+        dateLabel.text = viewModel.article.publishedDate
+        KingFisherFacade.shared.setImageView(articleImageView, withURLString: viewModel.getThumbnailURLString())
     }
 }

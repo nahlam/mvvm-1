@@ -27,7 +27,8 @@ class ArticlesViewController: BaseViewController<ArticlesViewModel> {
         viewModel.articles.asObservable().do(onNext: { (articles) in
             // to stop a progress
         }).bind(to: tableView.rx.items(cellIdentifier: R.reuseIdentifier.articleCell.identifier, cellType: ArticleCell.self)) { _, model, cell in
-            cell.configureCell(with: model)
+            let viewModel = AppDelegate.mainAssembler.resolver.resolve(ArticleViewModel.self, argument: model)!
+            cell.configureCell(with: viewModel)
             }.disposed(by: disposeBag)
     }
 

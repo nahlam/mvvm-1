@@ -64,10 +64,22 @@ struct Media: Decodable {
     }
 }
 
+enum MediaFormat: String, Codable {
+    case standardThumbnail = "Standard Thumbnail"
+    case medium = "mediumThreeByTwo210"
+    case mediumBig = "mediumThreeByTwo440"
+    
+    enum CodingKeys: String, CodingKey {
+        case standardThumbnail
+        case medium
+        case mediumBig
+    }
+}
+
 struct MediaMetadata: Decodable {
     
     let url: String
-    let format: String
+    let format: MediaFormat
     let height: Int
     let width: Int
     
