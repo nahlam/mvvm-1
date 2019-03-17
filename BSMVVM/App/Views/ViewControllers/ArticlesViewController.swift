@@ -21,12 +21,12 @@ class ArticlesViewController: BaseViewController<ArticlesViewModel> {
     }
     
     func setupUI() {
-        // to start a progress
+        ProgressOverlay.sharedInstance.showProgressIndecator()
     }
     
     func setupBinding() {
-        viewModel.articles.asObservable().do(onNext: { (articles) in
-            // to stop a progress
+        viewModel.articles.asObservable().do(onNext: { (_) in
+            ProgressOverlay.sharedInstance.hideProgressIndicator()
         }).bind(to: tableView.rx.items(cellIdentifier: R.reuseIdentifier.articleCell.identifier, cellType: ArticleCell.self)) { _, model, cell in
             let viewModel = AppDelegate.mainAssembler.resolver.resolve(ArticleViewModel.self, argument: model)!
             cell.configureCell(with: viewModel)
@@ -45,14 +45,16 @@ class ArticlesViewController: BaseViewController<ArticlesViewModel> {
         let lastWeek = RxDefaultAlertAction.init(title: "Last Week", style: .default, result: RxDefaultAlertAction.Result.lastWeek)
         let lastMonth = RxDefaultAlertAction.init(title: "Last Month", style: .default, result: RxDefaultAlertAction.Result.lastMonth)
         let cancel = RxDefaultAlertAction.init(title: "Cancel", style: .destructive, result: RxDefaultAlertAction.Result.cancel)
-        let title = "Choose Articles Period"
+        let title = "Articles Period"
+        let message = "Choose the article period"
         let actions = [latest, lastWeek, lastMonth, cancel]
-        let alertObservable = UIAlertController.rx_presentAlert(viewController: self, title: title, message: "", preferredStyle: .actionSheet, animated: true, actions: actions)
+        let alertObservable = UIAlertController.rx_presentAlert(viewController: self, title: title, message: message, preferredStyle: .actionSheet, animated: true, actions: actions)
         alertObservable.subscribe(onNext: { [weak self] (result) in
             guard let self = self else {
                 return
             }
             if let period = result.getPeriod() {
+                self.setupUI()
                 self.viewModel.getArticles(period: period)
             }
         }).disposed(by: disposeBag)

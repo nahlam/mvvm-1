@@ -43,6 +43,7 @@ enum RxAlertControllerResult {
 }
 
 extension UIAlertController {
+    // swiftlint:disable line_length
     static func rx_presentAlert<Action: RxAlertActionType, Result>(viewController: UIViewController, title: String, message: String, preferredStyle: UIAlertController.Style = .alert, animated: Bool = true, actions: [Action]) -> Observable<Result> where Action.Result == Result {
         return Observable.create { observer -> Disposable in
             let alertController = UIAlertController(title: title, message: message, preferredStyle: preferredStyle)
@@ -54,13 +55,15 @@ extension UIAlertController {
                 })
                 }
                 .forEach(alertController.addAction)
-            viewController.present(alertController, animated: animated, completion: nil)
-            
+            viewController.present(alertController, animated: animated, completion: {
+                alertController.view.tintColor = UIColor.appColor
+            })
             return Disposables.create {
                 alertController.dismiss(animated: true, completion: nil)
             }
         }
     }
+    // swiftlint:enable line_length
 }
 
 extension RxAlertControllerResult {

@@ -16,7 +16,7 @@ class BaseViewController<VM: BaseViewModel>: UIViewController {
     var viewModel: VM! {
         didSet {
             viewModel.message.asSignal().emit(onNext: { message in
-                // handle show error message
+                SwiftMessagesFacade.showMessage(body: message, theme: .error, presentationStyle: .top)
             }).disposed(by: disposeBag)
         }
     }
