@@ -22,7 +22,8 @@
 		98037223223DD35F0008F06B /* UIAlertController+RX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98037221223DD35F0008F06B /* UIAlertController+RX.swift */; };
 		98037225223DD3690008F06B /* ProgressOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98037224223DD3690008F06B /* ProgressOverlay.swift */; };
 		98037227223DD3A20008F06B /* UIColor+Custom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98037226223DD3A20008F06B /* UIColor+Custom.swift */; };
-		9803722B223DD63C0008F06B /* KingFisherFacade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9803722A223DD63C0008F06B /* KingFisherFacade.swift */; };
+		9803722D223DD6A50008F06B /* ArticleDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9803722C223DD6A50008F06B /* ArticleDetailsViewController.swift */; };
+		9803722F223DD8F20008F06B /* SwiftMessagesFacade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9803722E223DD8F20008F06B /* SwiftMessagesFacade.swift */; };
 		981D36E9223D8FA600DBAC7F /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981D36E8223D8FA600DBAC7F /* R.generated.swift */; };
 		981D36ED223D91AE00DBAC7F /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981D36EC223D91AE00DBAC7F /* Article.swift */; };
 		981D36EF223D954F00DBAC7F /* ArticlesResonse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981D36EE223D954F00DBAC7F /* ArticlesResonse.swift */; };
@@ -80,7 +81,8 @@
 		98037221223DD35F0008F06B /* UIAlertController+RX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIAlertController+RX.swift"; sourceTree = "<group>"; };
 		98037224223DD3690008F06B /* ProgressOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressOverlay.swift; sourceTree = "<group>"; };
 		98037226223DD3A20008F06B /* UIColor+Custom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Custom.swift"; sourceTree = "<group>"; };
-		9803722A223DD63C0008F06B /* KingFisherFacade.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KingFisherFacade.swift; sourceTree = "<group>"; };
+		9803722C223DD6A50008F06B /* ArticleDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleDetailsViewController.swift; sourceTree = "<group>"; };
+		9803722E223DD8F20008F06B /* SwiftMessagesFacade.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftMessagesFacade.swift; sourceTree = "<group>"; };
 		981D36E8223D8FA600DBAC7F /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
 		981D36EC223D91AE00DBAC7F /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
 		981D36EE223D954F00DBAC7F /* ArticlesResonse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlesResonse.swift; sourceTree = "<group>"; };
@@ -194,7 +196,7 @@
 		9803720B223DBC740008F06B /* Facasdes */ = {
 			isa = PBXGroup;
 			children = (
-				9803722A223DD63C0008F06B /* KingFisherFacade.swift */,
+				9803722E223DD8F20008F06B /* SwiftMessagesFacade.swift */,
 				98037215223DBC960008F06B /* KingFisherFacade.swift */,
 			);
 			path = Facasdes;
@@ -205,6 +207,7 @@
 			children = (
 				9803720D223DBC740008F06B /* BaseViewController.swift */,
 				9803720E223DBC740008F06B /* ArticlesViewController.swift */,
+				9803722C223DD6A50008F06B /* ArticleDetailsViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -662,6 +665,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				981D36FF223D9EDA00DBAC7F /* Moya+JSON.swift in Sources */,
+				9803722F223DD8F20008F06B /* SwiftMessagesFacade.swift in Sources */,
 				9803720F223DBC740008F06B /* BaseViewModel.swift in Sources */,
 				981D36FC223D9E8300DBAC7F /* ApiAssemblies.swift in Sources */,
 				98037223223DD35F0008F06B /* UIAlertController+RX.swift in Sources */,
@@ -672,11 +676,11 @@
 				981D36FA223D9E6400DBAC7F /* MainAssembler.swift in Sources */,
 				981D3701223D9F1800DBAC7F /* RepositoriesAssemblies.swift in Sources */,
 				98037211223DBC740008F06B /* ArticleViewModel.swift in Sources */,
+				9803722D223DD6A50008F06B /* ArticleDetailsViewController.swift in Sources */,
 				981D370A223DA8E500DBAC7F /* Single+MoyaErrorHandler.swift in Sources */,
 				98037213223DBC740008F06B /* BaseViewController.swift in Sources */,
 				98037227223DD3A20008F06B /* UIColor+Custom.swift in Sources */,
 				98037212223DBC740008F06B /* ArticleCell.swift in Sources */,
-				9803722B223DD63C0008F06B /* KingFisherFacade.swift in Sources */,
 				981D371C223DAD2900DBAC7F /* SwinjectStoryboardAssemblies.swift in Sources */,
 				98037216223DBC960008F06B /* KingFisherFacade.swift in Sources */,
 				981D36E9223D8FA600DBAC7F /* R.generated.swift in Sources */,

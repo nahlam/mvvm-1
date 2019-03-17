@@ -67,7 +67,7 @@ struct Media: Decodable {
 enum MediaFormat: String, Codable {
     case standardThumbnail = "Standard Thumbnail"
     case medium = "mediumThreeByTwo210"
-    case mediumBig = "mediumThreeByTwo440"
+    case big = "mediumThreeByTwo440"
     
     enum CodingKeys: String, CodingKey {
         case standardThumbnail

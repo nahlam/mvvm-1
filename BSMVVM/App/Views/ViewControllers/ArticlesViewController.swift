@@ -38,6 +38,20 @@ class ArticlesViewController: BaseViewController<ArticlesViewModel> {
             }
             self.showActionSheet()
             }.disposed(by: disposeBag)
+        
+        tableView.rx.modelSelected(Article.self)
+            .subscribe(onNext: { [weak self] model in
+                let viewModel = AppDelegate.mainAssembler.resolver.resolve(ArticleViewModel.self, argument: model)!
+                let articleDetailsViewController = R.storyboard.main.articleDetailsViewController()!
+                articleDetailsViewController.viewModel = viewModel
+                self?.navigationController?.pushViewController(articleDetailsViewController, animated: true)
+            }).disposed(by: disposeBag)
+        
+        // Deselect the selected tableview cell
+        tableView.rx.itemSelected
+            .subscribe(onNext: { [weak self] indexPath in
+                self?.tableView.deselectRow(at: indexPath, animated: true)
+            }).disposed(by: disposeBag)
     }
     
     private func showActionSheet() {

@@ -26,4 +26,12 @@ final class ArticleViewModel: BaseViewModel {
         }
         return nil
     }
+    
+    func getLargeImageURLString() -> String? {
+        guard let metaDataArray = article.media?[0].mediaMetadata else { return nil }
+        for mediaMetaData in metaDataArray where mediaMetaData.format == .big {
+            return mediaMetaData.url
+        }
+        return nil
+    }
 }
