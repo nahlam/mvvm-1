@@ -19,6 +19,7 @@
 		98037219223DC1E90008F06B /* Response-1.json in Resources */ = {isa = PBXBuildFile; fileRef = 98037218223DC1E90008F06B /* Response-1.json */; };
 		9803721B223DC2440008F06B /* Response-7.json in Resources */ = {isa = PBXBuildFile; fileRef = 9803721A223DC2440008F06B /* Response-7.json */; };
 		9803721D223DC25B0008F06B /* Response-30.json in Resources */ = {isa = PBXBuildFile; fileRef = 9803721C223DC25B0008F06B /* Response-30.json */; };
+		9803721F223DC6060008F06B /* UIAlertController+RX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9803721E223DC6060008F06B /* UIAlertController+RX.swift */; };
 		981D36E9223D8FA600DBAC7F /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981D36E8223D8FA600DBAC7F /* R.generated.swift */; };
 		981D36ED223D91AE00DBAC7F /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981D36EC223D91AE00DBAC7F /* Article.swift */; };
 		981D36EF223D954F00DBAC7F /* ArticlesResonse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981D36EE223D954F00DBAC7F /* ArticlesResonse.swift */; };
@@ -73,6 +74,7 @@
 		98037218223DC1E90008F06B /* Response-1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Response-1.json"; sourceTree = "<group>"; };
 		9803721A223DC2440008F06B /* Response-7.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Response-7.json"; sourceTree = "<group>"; };
 		9803721C223DC25B0008F06B /* Response-30.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Response-30.json"; sourceTree = "<group>"; };
+		9803721E223DC6060008F06B /* UIAlertController+RX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIAlertController+RX.swift"; sourceTree = "<group>"; };
 		981D36E8223D8FA600DBAC7F /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
 		981D36EC223D91AE00DBAC7F /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
 		981D36EE223D954F00DBAC7F /* ArticlesResonse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlesResonse.swift; sourceTree = "<group>"; };
@@ -159,6 +161,7 @@
 				98037208223DBC740008F06B /* Cells */,
 				9803720B223DBC740008F06B /* Facasdes */,
 				9803720C223DBC740008F06B /* ViewControllers */,
+				9803721E223DC6060008F06B /* UIAlertController+RX.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -634,6 +637,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				981D36FF223D9EDA00DBAC7F /* Moya+JSON.swift in Sources */,
+				9803721F223DC6060008F06B /* UIAlertController+RX.swift in Sources */,
 				9803720F223DBC740008F06B /* BaseViewModel.swift in Sources */,
 				981D36FC223D9E8300DBAC7F /* ApiAssemblies.swift in Sources */,
 				981D36F7223D9DAD00DBAC7F /* ArticlesRepository.swift in Sources */,

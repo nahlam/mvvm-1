@@ -110,8 +110,11 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="OzC-gD-zDq"/>
                     </view>
-                    <navigationItem key="navigationItem" title="NY Times Most Popular" id="zy3-VD-LzD"/>
+                    <navigationItem key="navigationItem" title="NY Times Most Popular" id="zy3-VD-LzD">
+                        <barButtonItem key="rightBarButtonItem" title="Filter" id="88t-PB-g7Q"/>
+                    </navigationItem>
                     <connections>
+                        <outlet property="filterButton" destination="88t-PB-g7Q" id="hy5-3E-gRC"/>
                         <outlet property="tableView" destination="r4p-Lp-m9x" id="ffj-Do-OZP"/>
                     </connections>
                 </viewController>

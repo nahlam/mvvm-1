@@ -16,7 +16,7 @@ struct ArticlesRepository {
     
     let api: MoyaProvider<ArticlesAPI>
     
-    func getArticles(period: Period = .lastDay) -> Single<ArticlesResonse> {
+    func getArticles(period: Period = .latest) -> Single<ArticlesResonse> {
         return api.rx.request(.getArticles(period: period))
             .map(ArticlesResonse.self, atKeyPath: nil, using: JSONDecoder(), failsOnEmptyData: false)
     }

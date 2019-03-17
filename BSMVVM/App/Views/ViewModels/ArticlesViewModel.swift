@@ -13,7 +13,7 @@ import RxCocoa
 final class ArticlesViewModel: BaseViewModel {
     
     private let repository: ArticlesRepository
-    
+    private var period: Period = .lastMonth // to pass the first choice of latest
     let articles = BehaviorRelay<[Article]>(value: [])
     let count = BehaviorRelay<Int>(value: 0)
     let isLoading = PublishRelay<Bool>()
@@ -23,21 +23,26 @@ final class ArticlesViewModel: BaseViewModel {
         super.init()
     }
     
-    func getArticles(period: Period = .lastDay) {
-        let fileName = "Response-\(period.rawValue)"
-        repository.getArticlesFromJSONFile(fileName)
-            .subscribWithErrorHandling(onSuccess: { [weak self] response in
-                guard let self = self else {
-                    return
-                }
-                self.articles.accept(response.articles)
-                self.count.accept(response.count)
-                self.isLoading.accept(false)
-                }, onError: { [weak self] _ in
+    func getArticles(period: Period = .latest) {
+        if self.period != period {
+            self.period = period
+            self.isLoading.accept(true)
+            let fileName = "Response-\(period.rawValue)"
+            repository.getArticlesFromJSONFile(fileName)
+                .subscribWithErrorHandling(onSuccess: { [weak self] response in
                     guard let self = self else {
                         return
                     }
+                    self.articles.accept(response.articles)
+                    self.count.accept(response.count)
                     self.isLoading.accept(false)
-                }, viewModel: self).disposed(by: disposeBag)
+                    }, onError: { [weak self] _ in
+                        guard let self = self else {
+                            return
+                        }
+                        self.isLoading.accept(false)
+                    }, viewModel: self).disposed(by: disposeBag)
+        }
+        
     }
 }
