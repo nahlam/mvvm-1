@@ -27,8 +27,7 @@ final class ArticlesViewModel: BaseViewModel {
         if self.period != period {
             self.period = period
             self.isLoading.accept(true)
-            let fileName = "Response-\(period.rawValue)"
-            repository.getArticlesFromJSONFile(fileName)
+            repository.getArticles(period: period)
                 .subscribWithErrorHandling(onSuccess: { [weak self] response in
                     guard let self = self else {
                         return
